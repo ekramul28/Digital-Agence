@@ -1,0 +1,80 @@
+/* common code  */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: black;
+}
+
+
+.header-link {
+    display: flex;
+}
+
+.header-link a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.header-link a:hover {
+    color: red;
+}
+
+.banner-section {
+    background-image: url('./asset/image/background.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.span {
+    color: red;
+
+}
+
+
+.banner-header {
+    font-size: 55px;
+
+}
+
+.banner-description {
+    margin: 0 auto;
+}
+
+.banner-para {
+    padding: 10px;
+}
+
+.btn {
+    padding: 12px 15px;
+    font-size: 20px;
+    background-color: rgb(241, 25, 25);
+    color: white;
+    border: 0;
+    margin-right: 5px;
+}
+
+.btn1 {
+    padding: 12px 15px;
+    font-size: 20px;
+    background-color: rgb(253, 253, 253);
+    color: black;
+    border: 0px;
+}
