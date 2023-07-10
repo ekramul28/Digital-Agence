@@ -180,3 +180,41 @@
 .contack-section-header {
     margin: 10px;
 }
+
+.All-card {
+    display: flex;
+
+
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.card {
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px black;
+    margin: 20px;
+
+}
+
+.card-head {
+    padding: 5px;
+}
+
+.card-para {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.card-section {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-img {
+    width: 270px;
+    height: 200px;
+    border-radius: 5px;
+}
