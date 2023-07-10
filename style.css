@@ -85,6 +85,35 @@
     margin: 10px;
 }
 
+.profile-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-header {
+    margin: 7px;
+    border-right: 2px solid red;
+    padding: 20px;
+}
+
+.imges {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.author-container {
+    display: flex;
+}
+
+.New-btn {
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 60px;
+    border-radius: 10px;
+    height: 60px;
+}
+
 .service-container {
     background-image: url('./asset/image/footer-bg.png'),
         linear-gradient(black, black);
