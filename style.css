@@ -157,3 +157,26 @@
 .left-side-container {
     margin: 7px;
 }
+
+
+/* contact section  */
+.contact-section {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('./asset/image/watch.png'), url('./asset/image/gradient1.png');
+    background-repeat: no-repeat;
+    background-position: center, right;
+    background-size: cover;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: -30px;
+
+}
+
+.contack-section-header {
+    margin: 10px;
+}
