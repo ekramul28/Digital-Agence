@@ -181,6 +181,8 @@
     margin: 10px;
 }
 
+/* card section */
+
 .All-card {
     display: flex;
 
@@ -217,4 +219,24 @@
     width: 270px;
     height: 200px;
     border-radius: 5px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.para {
+    padding: 10px;
+}
+
+.footer-logo {
+    margin-left: 100px;
 }
